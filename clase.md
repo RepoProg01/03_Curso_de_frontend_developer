@@ -100,7 +100,7 @@ Tenemos que utilizar las differentes etiquetas de HTML que ya existen.
 <p> </p>
 <span> </span>
 ```
-## Fielset y legend
+## Fieldset y legend
 ```html
     <fieldset>
         <legend>Informacion</legend>
