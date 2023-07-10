@@ -100,13 +100,80 @@ Tenemos que utilizar las differentes etiquetas de HTML que ya existen.
 <p> </p>
 <span> </span>
 ```
-
+## Fielset y legend
+```html
+    <fieldset>
+        <legend>Informacion</legend>
+        <input type="text">
+    </fieldset>
+```
+## Select 
+```html
+<select>
+<option>
+```
+* Select
+```html
+    <select name="" id="">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+```
+## Input list
+```html
+<input list="">
+<datalist id="">
+<option value="">
+```
+* Input list
+```html
+   <input list="cursos">
+    <datalist id="cursos">
+        <option value="html"></option>
+        <option value="css"></option>
+        <option value="js"></option>
+        <option value="php"></option>
+    </datalist>
+```
+## tablas
+```html
+<table>
+<caption>
+<th>
+<tr>
+<td>
+```
+* tabla
+```html
+    <table>
+        <caption>Usuarios</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Padilla</td>
+        </tr>
+    </table>
+```
 ## Formularios :
 ```html
 <form> </form>
 <input>
 <label> </label>
 <button> </button>
+```
+* Form
+```html
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <button type="submit">Submit</button>
+    </form>
 ```
 
 ## Imagenes y video :
@@ -116,9 +183,21 @@ Tenemos que utilizar las differentes etiquetas de HTML que ya existen.
 <iframe>
 <video>
 ```
+* Imagenes
+```html
+<img src="./assets/images.png" alt="Logo">
+```
+* Video
+```html
+<video src="./assets/alan-walker-faded.mp4" controls preload="auto"></video>
+```
 ## Enlaces :
 ```html
 <a>
+```
+* Enlace
+```html
+<a href="http://google.com">Google</a>
 ```
 
 ## Listas :
@@ -127,6 +206,44 @@ Tenemos que utilizar las differentes etiquetas de HTML que ya existen.
 <li> </li>
 <ol> </ol>
 ```
+
+* Lista desordenada :
+```html
+    <ul>
+        <li>home</li>
+        <li>services</li>
+        <li>products</li>
+        <li>about us</li>
+    </ul>
+```
+* lista desordenada con links :
+```html
+    <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">products</a></li>
+        <li><a href="">about us</a></li>
+    </ul>
+```
+* Lista ordenada :
+```html
+    <ol>
+        <li>home</li>
+        <li>services</li>
+        <li>products</li>
+        <li>about us</li>
+    </ol>
+```
+* lista ordenada con links :
+```html
+    <ol>
+        <li><a href="">home</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">products</a></li>
+        <li><a href="">about us</a></li>
+    </ol>
+```
+
 
 ## Anatomia de una declaracion CSS :
 
